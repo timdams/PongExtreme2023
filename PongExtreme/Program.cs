@@ -12,8 +12,12 @@
             List<PongBall> allBalls = new List<PongBall>();
             
             allBalls.Add(new PongBall());
+            allBalls.Add(new ErraticBall());
+            allBalls.Add(new ColorfullErraticBall());
+            allBalls.Add(new ColorfullErraticBall());
+            allBalls.Add(new ColorfullErraticBall());
 
-
+            allBalls.Add(new TeleportBall());
             while (true)
             {
                 foreach (var ball in allBalls)
